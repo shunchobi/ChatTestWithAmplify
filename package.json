@@ -1,0 +1,26 @@
+{
+  "name": "chatfronttest",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.1",
+    "@aws-amplify/ui-vue": "^3.0.2",
+    "@vue/apollo-composable": "^4.0.0-beta.1",
+    "aws-amplify": "^5.0.4",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
+    "vue": "^3.2.41"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3",
+    "vue-tsc": "^1.0.9"
+  }
+}
