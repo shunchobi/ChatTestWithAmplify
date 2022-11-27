@@ -11,7 +11,7 @@
 import { Amplify, API, graphqlOperation } from 'aws-amplify';
 import { onMounted, onUnmounted, ref } from 'vue';
 import { ListChatMessagesQuery, OnCreateChatMessageSubscription } from './API';
-import awsExports from './aws-exports.js';
+import awsExports from './aws-exports';
 import { createChatMessage } from './graphql/mutations';
 import { listChatMessages } from './graphql/queries';
 import { onCreateChatMessage } from './graphql/subscriptions';
